@@ -1,5 +1,6 @@
 class sinif:
     __deger1 = [] #private baş kısmında en az iki tane _ kulanılması ile oluşur
+    _deger3 = [] #yari gizli tek alt cizgi
     def __init__(self,deger2):
         self.deger2 = deger2 #public
         self.__deger1.append(deger2)
