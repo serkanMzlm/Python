@@ -12,7 +12,7 @@ class araba(): #Taban Sınıf
         print("-" * 30)
 
 
-class araba1(araba): #Alt sınıf
+class araba1(araba): #Alt sınıf miras aldıgını belirtmek için () icine miras alınıcak  sınıf yazılır
     def __init__(self,marka,model,guc,motor):
         super().__init__(marka,model,guc,motor) #belirtiğimiz özelliler dışında olanların kaybolmasını engelleriz
         self.marka = marka
@@ -36,4 +36,5 @@ mercedes.yazdir()
 araba1 ve araba2 araba  sınıfından türetildigi için 
 bu sınıfın  metoto ve niteliklerine erişebilirler
 """
+
 
